@@ -15,7 +15,7 @@ guessnum = 1
 wordInput = Entry(root)
 wordInput.grid(row=999, column=0, padx=10, pady=10, columnspan=3)
 
-time_left = 300  # 300 seconds = 5 minutes
+time_left = 300
 
 def format_time(seconds):
     minutes = seconds // 60
